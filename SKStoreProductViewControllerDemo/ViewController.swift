@@ -25,7 +25,7 @@ class ViewController: UIViewController {
         let vc = SKStoreProductViewController()
         vc.delegate = self
         // Apple ID
-        let dict = [SKStoreProductParameterITunesItemIdentifier: "1383175458"]
+        let dict = [SKStoreProductParameterITunesItemIdentifier: "XXXX"]
         
         vc.loadProduct(withParameters: dict) { (result, error) in
             if result {
